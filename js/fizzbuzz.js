@@ -1,4 +1,4 @@
-/* The debug function is a modified version of one I read in OReilly Press's Javascript: THe Definitive Guide by David Flanagan */
+/* The debug function is an modified version of the one I read in OReilly Press's Javascript: THe Definitive Guide by David Flanagan */
 function debug(msg) {
     var leadcollection = document.getElementsByClassName("lead");
     for (var i = 0, l = log.length; i < l; i++) {
