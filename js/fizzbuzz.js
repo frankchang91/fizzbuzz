@@ -1,10 +1,12 @@
+/* The debug function is a modified version of one I read in OReilly Press's Javascript: THe Definitive Guide by David Flanagan */
 function debug(msg) {
-    var log = document.getElementsByClassName("lead");
+    var leadcollection = document.getElementsByClassName("lead");
     for (var i = 0, l = log.length; i < l; i++) {
         var pre = document.createElement("pre");
         var text = document.createTextNode(msg);
         pre.appendChild(text);
-        log[i].appendChild(pre);
+        leadcollection[i].appendChild(pre);
+        break;
     }
 }
 function printnumber(N) {
